@@ -6,6 +6,7 @@ import ProjectGallery from './pages/ProjectGallery'
 import Project from './pages/Project'
 import Home from './pages/Home'
 import Header from './components/Header'
+import Custom404 from './pages/404'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
