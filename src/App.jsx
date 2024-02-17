@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   
   return (
-    <Router basename={'/jill-oreilly-react-portfolio'}>
+    <Router basename={`/jill-oreilly-react-portfolio`}>
       <Header />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
