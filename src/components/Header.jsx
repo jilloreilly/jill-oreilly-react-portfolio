@@ -30,7 +30,7 @@ function Header() {
           Contact
         </NavLink>
         <NavLink
-          to="project_gallery"
+          to="project-gallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
