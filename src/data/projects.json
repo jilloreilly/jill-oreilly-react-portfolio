@@ -1,45 +1,51 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
+    "title": "Project 1 - Birthday Blast from the Past",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+    "description": "Birthday Blast from the Past is a collaborative web application project that combines personal information with movie data to create a nostalgic journey through time.",
+    "github": "https://github.com/jilloreilly/birthday-blast-from-the-past",
+    "deployed": ""
   },
   {
     "id": 2,
-    "title": "Project 2",
+    "title": "Weather Dashboard",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+    "description": "A weather dashboard which displays the current weather and 5-day forecast of a given location and feature dynamically updated HTML and CSS powered by Bootstrap, jQuery, Day.js and data from the Open Weather Map API and Pixabay API",
+    "github": "https://github.com/jilloreilly/weather-dashboard",
+    "deployed": "https://jilloreilly.github.io/weather-dashboard/"
   },
   {
     "id": 3,
-    "title": "Project 3",
+    "title": "Studio Ghibli Quiz",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+    "description": "An online quiz about the films from the animation Studio Ghibli. The quiz runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.",
+    "github": "https://github.com/jilloreilly/jill-oreilly-ghibli-quiz",
+    "deployed": "https://jilloreilly.github.io/jill-oreilly-ghibli-quiz/"
   },
   {
     "id": 4,
-    "title": "Project 4",
+    "title": "Work Day Scheduler",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+    "description": "A simple calendar application that allows a user to save events for each hour of the day. It features dynamically updated HTML and CSS powered by jQuery and Day.js.",
+    "github": "https://github.com/jilloreilly/work-day-scheduler",
+    "deployed": "https://github.com/jilloreilly/work-day-scheduler"
   },
   {
     "id": 5,
-    "title": "Project 5",
+    "title": "Professional README Generator",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+    "description": "A command-line application that dynamically generates a professional README.md file from a user's input",
+    "github": "https://github.com/jilloreilly/professional-readme-generator",
+    "deployed": ""
   },
   {
     "id": 6,
-    "title": "Project 6",
+    "title": "Team Profile Generator",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "A Pineapple Under the Sea"
+    "description": "A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+    "github": "https://github.com/jilloreilly/team-profile-generator",
+    "deployed": ""
   }
   
 ]
