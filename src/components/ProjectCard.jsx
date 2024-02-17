@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function ProjectCard(props) {
   return (
     <Link to={`/project/${props.id}`}>
-    <Card style={{ width: '18rem' }}>
+    <Card >
       <Card.Img variant="top" src={props.image} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
