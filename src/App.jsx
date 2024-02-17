@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Contact from './pages/Contact'
 import ProjectGallery from './pages/ProjectGallery'
@@ -8,6 +7,7 @@ import Home from './pages/Home'
 import Header from './components/Header'
 import Custom404 from './pages/404'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 function App() {
   
