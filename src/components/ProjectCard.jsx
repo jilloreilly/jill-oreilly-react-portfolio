@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 
 export default function ProjectCard(props) {
   return (
+    <div className='col'>
     <Link to={`/project/${props.id}`}>
-    <Card >
-      <Card.Img variant="top" src={props.image} />
+    <Card>
+      <Card.Img variant="top" src={props.image} alt={props.title} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
@@ -15,6 +16,7 @@ export default function ProjectCard(props) {
       </Card.Body>
     </Card>
     </Link>
+    </div>
   );
 }
 
