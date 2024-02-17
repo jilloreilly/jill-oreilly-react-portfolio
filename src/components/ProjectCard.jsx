@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
   return (
     <div className='col'>
     <Link to={`/project/${props.id}`}>
-    <Card>
+    <Card className='h-100'>
       <Card.Img variant="top" src={props.image} alt={props.title} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
