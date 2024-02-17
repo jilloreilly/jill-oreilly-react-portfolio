@@ -15,10 +15,11 @@ function App() {
       <Header />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
-        <Route path='/' element={<Home />} />
         <Route path="/project-gallery" element={<ProjectGallery />} />
         <Route path="/project/:id" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path='/404' element={<Custom404 />} />
+        <Route path='' element={<Home />} />
       </Routes>
     </Router>
   )
