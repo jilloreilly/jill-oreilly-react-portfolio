@@ -15,10 +15,8 @@ function ProjectGallery() {
     <div className="container">
       <h1>Project Portfolio</h1>
       
-        <div className="row row-cols-2">
-          <div className="col">
-            {projectList}
-          </div>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          {projectList}
         </div>
       
     </div>
