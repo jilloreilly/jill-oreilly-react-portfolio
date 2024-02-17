@@ -22,22 +22,21 @@ function Header() {
           Home
         </NavLink>
         <NavLink
+          to="project-gallery"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Portfolio
+        </NavLink>
+        <NavLink
           to="contact"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
           Contact
-        </NavLink>
-        <NavLink
-          to="project-gallery"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Project Gallery
-        </NavLink>
-           
+        </NavLink>   
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -13,7 +13,7 @@ function ProjectGallery() {
   ))
   return (
     <div className="container">
-      <h1>Project Gallery</h1>
+      <h1>Project Portfolio</h1>
       
         <div className="row row-cols-2">
           <div className="col">

@@ -10,7 +10,8 @@ export default function ProjectCard(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
-        <Button variant="primary" href={props.github}>Go somehwere</Button>
+        <a href={props.github}><Button variant="primary">Repo</Button></a>
+        <a href={props.deployed}><Button variant="primary">Deployed site</Button></a>
       </Card.Body>
     </Card>
     </Link>

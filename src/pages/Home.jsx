@@ -1,9 +1,14 @@
-function Home() {
+const Home = () => {
+
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <div>
+        <h1>Welcome to my Portfolio site!</h1>
+      </div>
+    </>
   )
+  
 }
+
 
 export default Home
