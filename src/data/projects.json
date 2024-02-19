@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Professional README Generator",
-    "image": "/src/pages/images/project5-professional-readme-generator.png",
+    "image": "/src/pages/images/project5-professional-readme-generator.jpg",
     "description": "A command-line application that dynamically generates a professional README.md file from a user's input",
     "github": "https://github.com/jilloreilly/professional-readme-generator",
     "deployed": ""
