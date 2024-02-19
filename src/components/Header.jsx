@@ -6,7 +6,8 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <>
+    <Navbar expand="lg" className="fixed-top">
       <Container>
         <Navbar.Brand href="#home">Jill O'Reilly</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,6 +42,10 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <header>
+      <p className='subtitle'>Front-end web developer</p>
+    </header>
+    </>
   )
 }
 
