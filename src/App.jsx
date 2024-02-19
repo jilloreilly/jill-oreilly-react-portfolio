@@ -6,6 +6,7 @@ import Project from './pages/Project'
 import Home from './pages/Home'
 import Header from './components/Header'
 import Custom404 from './pages/404'
+import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/404' element={<Custom404 />} />
         <Route path='' element={<Home />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
