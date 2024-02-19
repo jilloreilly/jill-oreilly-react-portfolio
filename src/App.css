@@ -86,6 +86,11 @@ header .subtitle {
   font-weight: 300;
   font-style: normal;
 }
+
+.project-gallery .card-img {
+  opacity: 45%;
+}
+
 .card {
   border: none;
   border-radius: 0;
