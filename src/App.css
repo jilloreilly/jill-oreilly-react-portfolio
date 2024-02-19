@@ -28,11 +28,14 @@ nav {
   width: 100vw;
 }
 
-#nav .navbar-brand {
-  background: var(--light);
-  color: var(--blue);
-  font-size: 1em;
+nav .navbar-brand {
+  /*background: var(--light);*/
+  color: var(--light);
+  font-size: 3em;
   padding: 0 10px;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav-link  {
@@ -78,6 +81,11 @@ header .subtitle {
 
 
 /* Project Gallery */
+.project-gallery h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 .card {
   border: none;
   border-radius: 0;
@@ -85,6 +93,24 @@ header .subtitle {
 
 .card .card-img {
   border-radius: 0;
+}
+
+/* Project Detail */
+.project-detail img {
+  border-radius: 0;
+}
+
+/* Contact */
+
+.contact h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.contact form {
+  background: #fff;
+  width: 60%;
 }
 
 /* Footer */
