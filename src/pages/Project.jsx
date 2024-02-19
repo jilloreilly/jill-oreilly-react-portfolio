@@ -12,7 +12,7 @@ export default function Project(props) {
     
   let listProject = projectInfo.map((item, i) => {
 
-    let {title, github, image, description} = item;
+    let {title, image, description, github, deployed} = item;
 
       return (
         <div key={i}>
@@ -21,7 +21,10 @@ export default function Project(props) {
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
-              <Button variant="primary" href={item.github}>Go somehwere</Button>
+              {/* <Button variant="primary" href={item.github}>Go somehwere</Button>
+              <Button variant="primary" href={item.github}>Go somehwere</Button> */}
+              <Card.Link href={item.github}>View the GitHub repo</Card.Link>
+              <Card.Link href={item.deployed}>View the deployed site</Card.Link>
             </Card.Body>
           </Card>
         </div>
