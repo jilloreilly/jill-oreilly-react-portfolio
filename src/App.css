@@ -43,10 +43,15 @@ nav {
   color: var(--yellow);
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--yellow);
+  font-weight: 500;
+}
+
 /* Header */
 header {
   padding-top: 150px;
-  background: url(./src/pages/images/hero.jpg) center 58px no-repeat;
+  background: url('/images/hero.jpg') center 58px no-repeat;
   background-size: cover;
   display: flex;
   flex-direction:  row;
