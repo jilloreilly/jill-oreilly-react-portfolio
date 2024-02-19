@@ -7,6 +7,7 @@
   --yellow: #f5a602;
 }
 
+/* Global */
 #root {
   max-width: 100vw;
   min-height: 100vh;
@@ -14,14 +15,74 @@
   text-align: center;
 }
 
-nav {
-  width: 100vw;
-}
-
-
-
 body {
   background:  var(--light);
   color: var(--blue);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
+
+/* Navigation */
+nav {
+  background: var(--blue);
+  width: 100vw;
+}
+
+#nav .navbar-brand {
+  background: var(--light);
+  color: var(--blue);
+  font-size: 1em;
+  padding: 0 10px;
+}
+
+.nav-link  {
+  color: var(--light);
+}
+
+.nav-link:hover {
+  color: var(--yellow);
+}
+
+/* Header */
+header {
+  padding-top: 150px;
+  background: url(./src/pages/images/hero.jpg) center 58px no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:  row;
+  justify-content: flex-end;
+}
+
+header .subtitle {
+  background: var(--light);
+  box-shadow: 5px 5px 8px #888;
+  color: #4e59c0;
+  font-size: 1.5em;
+  margin-right: 20px;
+  padding: 5px 10px;
+}
+
+/* About */
+
+#about h1 {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+}
+
+
+/* Project Gallery */
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.card .card-img {
+  border-radius: 0;
+}
+
+/* Footer */
+
+
+
