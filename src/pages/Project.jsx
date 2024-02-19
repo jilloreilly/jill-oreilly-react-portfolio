@@ -13,21 +13,21 @@ export default function Project(props) {
   let {title, image, description, github, deployed} = projectInfo[0];
     
   return (
-      <div>
-        <div key={id}>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={image} />
-            <Card.Body>
-              <Card.Title>{title}</Card.Title>
-              <Card.Text>{description}</Card.Text>
-              {/* <Button variant="primary" href={item.github}>Go somehwere</Button>
-              <Button variant="primary" href={item.github}>Go somehwere</Button> */}
-              <Card.Link href={github}>View the GitHub repo</Card.Link>
-              <Card.Link href={deployed}>View the deployed site</Card.Link>
-            </Card.Body>
-          </Card>
-        </div>
-      </div>
-    )
+    <div className='container project-detail mt-5' key={id}>
+      <Card>
+      <Card.Title>{title}</Card.Title>
+        <Card.Img variant="top" src={image} />
+        <Card.Body>
+          <Card.Text>{description}</Card.Text>
+          <Card.Link href={github}>View the GitHub repo</Card.Link>
+          <Card.Link href={deployed}>View the deployed site</Card.Link>
+        </Card.Body>
+      </Card>
+    </div>
+  )
+
+  // Remove width
+  // Styling
+  // Add long description & technologies used 
 
 }
