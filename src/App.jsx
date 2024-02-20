@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Contact from './pages/Contact'
 import ProjectGallery from './pages/ProjectGallery'
@@ -13,8 +12,8 @@ import './App.css'
 function App() {
   
   return (
-    //<Router>
-     <Router basename={`/jill-oreilly-react-portfolio`}>
+    // <Router>
+    <Router basename={`/jill-oreilly-react-portfolio`}>
       <Header />
       {/* Wrap Route elements in a Routes component */}
       <Routes>

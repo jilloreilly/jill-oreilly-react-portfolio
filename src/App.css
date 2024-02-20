@@ -154,6 +154,7 @@ header .subtitle {
 .project-detail .card {
   color: var(--blue);
   background: none;
+  width: 75%;
 }
 .project-detail h1 {
   font-weight: 300;
@@ -165,11 +166,9 @@ header .subtitle {
 }
 .project-detail img {
   border-radius: 0;
-  width: 75%;
 }
 
 .project-detail .card-body {
-  width: 75%;
   background: #fff;
 }
 
