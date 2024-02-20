@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
           <Card.Img src={props.image} alt={props.title} />
           <Card.ImgOverlay>
             <Card.Title>{props.title}</Card.Title>
-            <Card.Text>{props.description}</Card.Text>
+            {/* <Card.Text>{props.description}</Card.Text> */}
           </Card.ImgOverlay>
         </Card>
       </Link>

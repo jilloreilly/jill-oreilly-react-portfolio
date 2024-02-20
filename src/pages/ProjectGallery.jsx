@@ -12,8 +12,8 @@ function ProjectGallery() {
       github={project.github}  />
   ))
   return (
-    <div className="container project-gallery">
-      <h1>Project Portfolio</h1>
+    <div className="container mt-5 project-gallery">
+      <h1 className="mb-5">- Project Portfolio -</h1>
       
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {projectList}

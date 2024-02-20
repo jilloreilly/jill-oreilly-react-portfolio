@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact container mt-5">
-        <h1>Get in touch</h1>
+        <h1 className='mb-5'>- Get in touch -</h1>
         <div className="d-flex justify-content-center">
         <Form className='p-4'>
           <Form.Group className="mb-3" controlId="formBasicEmail">

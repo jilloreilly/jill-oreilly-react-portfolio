@@ -26,8 +26,6 @@ export default function Project(props) {
     </div>
   )
 
-  // Remove width
-  // Styling
-  // Add long description & technologies used 
+
 
 }
