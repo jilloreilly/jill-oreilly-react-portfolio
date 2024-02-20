@@ -17,6 +17,25 @@ export default function Home() {
                   </div>
               </div>
           </section>
+
+        {/* Skills */}
+        <section id="skills" class="container p-3">
+            <h2 class="mb-4">- Skills -</h2>
+            
+            <div class="d-flex flex-row flex-wrap justify-content-evenly list-unstyled text-center">
+                <p class="icon-html">HTML5</p>
+                <p class="icon-css">CSS3</p>
+                <p class="icon-bootstrap">Bootstrap</p>
+                <p class="icon-terminal">Terminal</p>
+                <p class="icon-git">Git</p>
+                <p class="icon-github">Github</p>
+                <p class="icon-javascript">JavaScript</p>
+                <p class="icon-api">APIs</p>
+                <p class="icon-node">Node.js</p>
+                <p class="icon-json">JSON</p>
+                <p class="icon-react">React.js</p>
+            </div>
+        </section>
         </main>
       </div>
     </>
