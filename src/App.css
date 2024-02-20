@@ -127,7 +127,9 @@ header .subtitle {
 
 .project-gallery .card-img {
   border-radius: 0;
+  object-fit: cover;
   opacity: 45%;
+  height: 400px;
 }
 
 .project-gallery a:hover .card-img {
@@ -194,6 +196,10 @@ header .subtitle {
 }
 
 /* Footer */
+
+footer img {
+  width: 75%;
+}
 
 
 
