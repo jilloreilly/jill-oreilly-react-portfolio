@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="text-center py-3">
+            <footer className="text-center mt-5 py-3">
                 {/* Contact details */}
                 <section id="contact" className="container p-3">
                    <div id="contact-info" className="d-flex flex-row justify-content-evenly">
