@@ -13,6 +13,7 @@ import './App.css'
 function App() {
   
   return (
+    // <Router>
     <Router basename={`/jill-oreilly-react-portfolio`}>
       <Header />
       {/* Wrap Route elements in a Routes component */}
@@ -21,7 +22,7 @@ function App() {
         <Route path="/project/:id" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
         <Route path='/404' element={<Custom404 />} />
-        <Route path='' element={<Home />} />
+        <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
     </Router>

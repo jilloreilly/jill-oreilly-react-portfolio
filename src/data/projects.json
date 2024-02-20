@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Project 1 - Birthday Blast from the Past",
-    "image": "/images/project1-birthday-blast.png",
+    "image": "../../public/images/project1-birthday-blast.png",
     "description": "Birthday Blast from the Past is a collaborative web application project that combines personal information with movie data to create a nostalgic journey through time.",
     "github": "https://github.com/jilloreilly/birthday-blast-from-the-past",
     "deployed": "https://jilloreilly.github.io/birthday-blast-from-the-past/"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Weather Dashboard",
-    "image": "/images/project2-weather-dashboard.png",
+    "image": "../../public/images/project2-weather-dashboard.png",
     "description": "A weather dashboard which displays the current weather and 5-day forecast of a given location and feature dynamically updated HTML and CSS powered by Bootstrap, jQuery, Day.js and data from the Open Weather Map API and Pixabay API",
     "github": "https://github.com/jilloreilly/weather-dashboard",
     "deployed": "https://jilloreilly.github.io/weather-dashboard/"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Studio Ghibli Quiz",
-    "image": "/images/project3-studio-ghibli-quiz.png",
+    "image": "../../public/images/project3-studio-ghibli-quiz.png",
     "description": "An online quiz about the films from the animation Studio Ghibli. The quiz runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.",
     "github": "https://github.com/jilloreilly/jill-oreilly-ghibli-quiz",
     "deployed": "https://jilloreilly.github.io/jill-oreilly-ghibli-quiz/"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Work Day Scheduler",
-    "image": "/images/project4-work-day-scheduler.png",
+    "image": "../../public/images/project4-work-day-scheduler.png",
     "description": "A simple calendar application that allows a user to save events for each hour of the day. It features dynamically updated HTML and CSS powered by jQuery and Day.js.",
     "github": "https://github.com/jilloreilly/work-day-scheduler",
     "deployed": "https://github.com/jilloreilly/work-day-scheduler"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Professional README Generator",
-    "image": "/images/project5-professional-readme-generator.jpg",
+    "image": "../../public/images/project5-professional-readme-generator.jpg",
     "description": "A command-line application that dynamically generates a professional README.md file from a user's input",
     "github": "https://github.com/jilloreilly/professional-readme-generator",
     "deployed": ""
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Team Profile Generator",
-    "image": "/images/project6-team-profile-generator.png",
+    "image": "../../public/images/project6-team-profile-generator.png",
     "description": "A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
     "github": "https://github.com/jilloreilly/team-profile-generator",
     "deployed": ""
