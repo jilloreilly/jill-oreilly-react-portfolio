@@ -201,5 +201,12 @@ footer img {
   width: 75%;
 }
 
+footer img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+
+
 
 
