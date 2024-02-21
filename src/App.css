@@ -195,6 +195,9 @@ header .subtitle {
 }
 
 /* Footer */
+footer section {
+  border-top: 1px solid var(--blue);
+}
 
 footer img {
   width: 75%;
