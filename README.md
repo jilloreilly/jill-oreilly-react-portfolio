@@ -27,6 +27,10 @@ A portfolio website built in React, showcasing the projects and skills I have ga
 
   ![Screenshot Jill O'Reilly - Portfolio gallery](public/images/2-screenshot-gallery.png)
 
+   - **Project Detail**: More information on a single project
+
+  ![Screenshot Jill O'Reilly - Project page](public/images/4-screenshot-project.png)
+
   - **Contact**: Contact form
 
   ![Screenshot Jill O'Reilly - Contact form](public/images/3-screenshot-contact.png)
