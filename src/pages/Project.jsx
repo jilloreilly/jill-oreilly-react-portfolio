@@ -16,9 +16,9 @@ export default function Project(props) {
       <h1 className='mb-5'>- Project detail -</h1>
       <div className='d-flex justify-content-center'>
       <Card>
-      <Card.Title>{title}</Card.Title>
         <Card.Img variant="top" src={image2} alt={title} />
         <Card.Body className='p-5'>
+          <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
           <div className='d-flex justify-content-evenly'>
           <Card.Link href={github} target='_blank'>View the GitHub repo</Card.Link>
