@@ -9,7 +9,7 @@ export default function Project(props) {
   let projectInfo = projects.filter((project) => project.id == id )
   console.log(projectInfo)
 
-  let {title, image, description, github, deployed} = projectInfo[0];
+  let {title, image, image2, description, github, deployed} = projectInfo[0];
     
   return (
     <div className='container project-detail mt-5' key={id}>
@@ -17,7 +17,7 @@ export default function Project(props) {
       <div className='d-flex justify-content-center'>
       <Card>
       <Card.Title>{title}</Card.Title>
-        <Card.Img variant="top" src={image} alt={title} />
+        <Card.Img variant="top" src={image2} alt={title} />
         <Card.Body className='p-5'>
           <Card.Text>{description}</Card.Text>
           <div className='d-flex justify-content-evenly'>
