@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Contact from './pages/Contact'
 import ProjectGallery from './pages/ProjectGallery'
 import Project from './pages/Project'
@@ -13,7 +13,8 @@ function App() {
   
   return (
     //<Router>
-    <Router basename={`/jill-oreilly-react-portfolio`}>
+    // <Router basename={`/jill-oreilly-react-portfolio`}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/jill-oreilly-react-portfolio/"}>
       <Header />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
@@ -24,7 +25,8 @@ function App() {
         <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
-    </Router>
+     {/* </Router> */}
+    </BrowserRouter>  
   )
 }
 
