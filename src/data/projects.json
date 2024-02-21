@@ -33,7 +33,7 @@
     "image2": "https://jilloreilly.github.io/jill-oreilly-react-portfolio/images/project4-work-day-scheduler.png",
     "description": "A simple calendar application that allows a user to save events for each hour of the day. It features dynamically updated HTML and CSS powered by jQuery and Day.js.",
     "github": "https://github.com/jilloreilly/work-day-scheduler",
-    "deployed": "https://github.com/jilloreilly/work-day-scheduler"
+    "deployed": "https://jilloreilly.github.io/work-day-scheduler/"
   },
   {
     "id": 5,
