@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Project 1 - Birthday Blast from the Past",
     "image": "./images/project1-birthday-blast.png",
-    "image2": "https://jilloreilly.github.io/jill-oreilly-react-portfolio/images/project1-birthday-blast.png",
+    "image2": "./images/project1-birthday-blast.png",
     "description": "Birthday Blast from the Past is a collaborative web application project that combines personal information with movie data to create a nostalgic journey through time.",
     "github": "https://github.com/jilloreilly/birthday-blast-from-the-past",
     "deployed": "https://jilloreilly.github.io/birthday-blast-from-the-past/"
