@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import avatar from "../../public/images/jill-avatar-sm.png";
+import avatar from "../images/jill-avatar-sm.png";
 
 export default function Home() {
   return (

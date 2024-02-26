@@ -1,6 +1,7 @@
 {
   "name": "react",
   "private": true,
+  "homepage": "https://jilloreilly.github.io/jill-oreilly-react-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
