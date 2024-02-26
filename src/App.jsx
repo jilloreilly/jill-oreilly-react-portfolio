@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Contact from './pages/Contact'
 import ProjectGallery from './pages/ProjectGallery'
 import Project from './pages/Project'
@@ -12,9 +12,7 @@ import './App.css'
 function App() {
   
   return (
-    //<Router>
-    // <Router basename={`/jill-oreilly-react-portfolio`}>
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/jill-oreilly-react-portfolio/"}>
+    <HashRouter>
       <Header />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
@@ -25,8 +23,7 @@ function App() {
         <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
-     {/* </Router> */}
-    </BrowserRouter>  
+    </HashRouter>   
   )
 }
 
